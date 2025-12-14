@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,44 +8,205 @@
     <link rel="icon" type="icon" href="">
     <title>Today's Cricket Match update | Cricket News </title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
             <ul class="matches-live">
                 <li><a href="#Matches">Matches (14)</a></li>
                 <li><a href="#NZ">NZ vs WI (1)</a></li>
-                <li><a href="#Ashes">The Ashes(1)</a></li>
                 <li><a href="#IND">IND vs SA (1)</a></li>
-                <li><a href="#WBBL">WBBL (2)</a></li>
-                <li><a href="#ENG">ENG Lion Tour (1)</a></li>
-                <li><a href="#sheffield">Sheffield shield (3)</a></li>
-                <li><a href="#sa-women">Sa Women vs  IRE Women (1)</a></li>
-                <li><a href="#Ban-w-u19">Ban-W-U19 vs PAk-W-U19 (1)</a></li>
-                <li><a href="#ILT20">ILT20 (2)</a></li>
+                <li><a href="#BBL">BBL (1)</a></li>
+                <li><a href="#ENG">ENG vs AUS (1)</a></li>
+                <li><a href="#UN-19s">Under-19s Asia Cup (2)</a></li>
             </ul>
             <ul id="Matches">
-                <li id="NZ"><a href="#NZ">
-                    <div id="box-header">
-                        <span style="font-weight: bold;">Result</span>
-                        <span>1st TEST</span>
-                        <span>Chrischurch</span>
+                <li id="NZ" class="Matches-box">
+                    <div class="box-header">
+                        <span style="font-weight: bold;" class="top-head"></span>
+                        <span class="top-head">1st TEST</span>
+                        <span class="top-head">Chrischurch</span>
+                        <div>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/New-zealand.jpg" alt="img">New
+                                    Zealand</span>
+                                <span class="box-right">today</span>
+                            </p>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/West-indies.jpg" alt="img">West
+                                    Indies</span>
+                                <Time class="box-right">6:30PM</Time>
+                            </p>
+                        </div>
+                        <p class="result">Match will start in 1 hour 5min</p>
+                        <div class="shedule">
+                            <a href="#">Schedule</a>
+                            <a href="#">Table</a>
+                            <a href="#">Series</a>
+                        </div>
                     </div>
-                </a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                </li>
+                <li id="IND" class="Matches-box">
+                    <div class="box-header">
+                        <span style="font-weight: bold;" class="top-head"></span>
+                        <span class="top-head">3rd T20</span>
+                        <span class="top-head">Dharamsala</span>
+                        <div>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/india.jpg" alt="img">India</span>
+                                <span class="box-right">today</span>
+                            </p>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/south-africa.png"
+                                        alt="img">south-africa</span>
+                                <Time class="box-right">5:30PM</Time>
+                            </p>
+                        </div>
+                        <p class="result">Match will start in 0 hour 5min</p>
+                        <div class="shedule">
+                            <a href="#">Schedule</a>
+                            <a href="#">Table</a>
+                            <a href="#">Series</a>
+                        </div>
+                    </div>
+                </li>
+                <li id="BBL" class="Matches-box">
+                    <div class="box-header">
+                        <span style="font-weight: bold;" class="top-head"></span>
+                        <span class="top-head">1st Match</span>
+                        <span class="top-head">BBL</span>
+                        <span class="top-head">T20</span>
+                        <span class="top-head" style="color: rgb(36, 36, 36);">perth</span>
+                        <div>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/Scorchers.png" alt="img">Perth
+                                    Scrorchers</span>
+                                <span class="box-right">today</span>
+                            </p>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/sydney.jpg" alt="img">Sydney Sixers</span>
+                                <Time class="box-right">5:30PM</Time>
+                            </p>
+                        </div>
+                        <p class="result">Match will start in 0 hour 5min</p>
+                        <div class="shedule">
+                            <a href="#">Schedule</a>
+                            <a href="#">Table</a>
+                            <a href="#">Series</a>
+                        </div>
+                    </div>
+                </li>
+                <li id="ENG" class="Matches-box">
+                    <div class="box-header">
+                        <span style="font-weight: bold;" class="top-head">Result</span>
+                        <span class="top-head">1st T20</span>
+                        <span class="top-head">Melbourne</span>
+                        <div>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/England.jpg" alt="img">England</span>
+                                <span class="runs">185/5</span>
+                            </p>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/autralia.jpg" alt="img">Australia</span>
+                                <span class="runs">138/10</span>
+                            </p>
+                        </div>
+                        <p class="result">England won by 47 runs</p>
+                        <div class="shedule">
+                            <a href="#">Schedule</a>
+                            <a href="#">Table</a>
+                            <a href="#">Series</a>
+                        </div>
+                    </div>
+                </li>
+                <li id="UN-19s" class="Matches-box">
+                    <div class="box-header">
+                        <span style="font-weight: bold;" class="live">Live</span>
+                        <span class="top-head">5th Match,Group A</span>
+                        <span class="top-head">Under-19s Asia cup</span>
+                        <div>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/india.jpg" alt="img">IND-19s</span>
+                                <span class="box-right">
+                                    <span id="overs">(14.1/49)</span>
+                                    <span id="runs">96/2</span>
+                                </span>
+                            </p>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/Pakistan.png" alt="img">PAK-19s</span>
+                                <Time class="box-right">6:30PM</Time>
+                            </p>
+                        </div>
+                        <p class="result">PAK Under-19 chose to field</p>
+                        <div class="shedule">
+                            <a href="#">Schedule</a>
+                            <a href="#">Table</a>
+                            <a href="#">Series</a>
+                        </div>
+                    </div>
+                </li>
+                <li id="UN-19s" class="Matches-box">
+                    <div class="box-header">
+                        <span style="font-weight: bold;" class="drinks">Drinks</span>
+                        <span class="top-head">5th Match,Group A</span>
+                        <span class="top-head">Under-19s Asia cup</span>
+                        <div>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/india.jpg" alt="img">UAE-19s</span>
+                                <span class="box-right">
+                                    <span id="overs">(15/47)</span>
+                                    <span id="runs">77/0</span>
+                                </span>
+                            </p>
+                            <p class="box-paragraph">
+                                <span class="box-left"><img src="flags-images/Pakistan.png" alt="img">PAK-19s</span>
+                                <Time class="box-right"></Time>
+                            </p>
+                        </div>
+                        <p class="result">Malaysia U19 chose to field</p>
+                        <div class="shedule">
+                            <a href="#">Schedule</a>
+                            <a href="#">Table</a>
+                            <a href="#">Series</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="logo/ESPNcricinfo.webp" alt="Logo">
+                        </a>
+
+                    </div>
+                    <ul class="left-menu">
+                        <li><a href="#">Live Scores</a></li>
+                        <li><a href="#">Series</a></li>
+                        <li><a href="#">Teams</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Stats</a></li>
+                    </ul>
+                    <ul class="right-menu">
+                        <li><a href="#">Edition PK</a></li>
+                    </ul>
+                    <ul class="right-nav">
+                        <li><a href="#"><img src="logo/mode/Dark_mode.png" alt="Dark_mode"></a></li>
+                        <li><a href="#"><img src="logo/mode/Notification.png" alt="notify"></a></li>
+                        <li><a href="#"><img src="logo/mode/menu.png" alt="Menu"></a></li>
+                        <li><a href="#"><button><img src="logo/mode/search.png" alt="search"></button></a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="fixture">
+            
+        </section>
+    </main>
 </body>
+
 </html>
