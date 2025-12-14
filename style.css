@@ -201,5 +201,25 @@ header {
     border: none;
     cursor: pointer;
 }
-
+.fixture ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin:20px 380px;
+    margin-bottom: 40px;
+}
+.fixture ul li a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    font-size: 12px;
+    font-weight: bold;
+    border: 0.5px solid rgba(128, 128, 128, 0.651);
+    border-radius: 10px;
+    padding: 2px 2px;
+}
+.fixture ul li a img{
+    width: 15px;
+    vertical-align: middle;
+}
 
