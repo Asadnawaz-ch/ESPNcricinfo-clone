@@ -233,6 +233,7 @@ header {
     justify-content: left;
     width: 75%;
     margin-right: 20px;
+    border-right:1px solid #0181d1;
 
 }
 .News{
@@ -248,7 +249,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    width: 70%;
 }
 .news-content a{
     text-decoration: none;
@@ -266,14 +266,26 @@ header {
     color: black;
     font-weight: bold;
 }
-.pakistan-new-links{
+.news-content .pakistan-news-links{
     display: flex;
     justify-content: left;
     flex-direction: column;
+    margin-top: 10px;
 }
-.pakistan-new-links  p{
-    font-size: 14px;
+.news-content .pakistan-news-links p{
+    font-size: 15px;
+    font-weight: small;
+    font-family: sans-serif;
+    margin-top: 7px;
 }
+.pakistan-news-links p:hover{
+    color: #0181d1;
+}
+.pakistan-news-links p img{
+    width: 11px;
+    color: #0181d1;
+}
+
 
 
 
